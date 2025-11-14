@@ -1,6 +1,6 @@
 import { SELF } from 'cloudflare:test';
 import { describe, expect, it } from 'vitest';
-
+//
 describe('Container Registry Support', () => {
   describe('Docker API Version Check', () => {
     it('should handle /v2/ endpoint correctly', async () => {
